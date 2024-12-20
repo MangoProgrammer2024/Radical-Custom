@@ -128,4 +128,9 @@ void * AllocPixelMap(){
   return pixel;
 };
 
+void * PrintMapPixels(){
+  printf("%f", PixelField);
+  return * i;
+};
+
 
