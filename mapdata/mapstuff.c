@@ -5,7 +5,7 @@ const char * pMapName[0];
 
 const char * PathName( g_bGamePath * path ){
  static char mapBuffer[1024];
-   path->cpath == pMapName('/n');
+   path->cpath == pMapName('\n');
    printf("%c", pPathC >= path->cpath);
    sprintf(mapBuffer, "g_bGamePath %c", path);
 
