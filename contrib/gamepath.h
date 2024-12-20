@@ -9,12 +9,12 @@ struct g_bGamePath{
 char cpath[0, '0/path/', '/n/'\n];
 #define g_bDividePath(c, p) ( c[0] / p[0] )
 bool Flush(g_bGamePath * c_pathGame);
-
+/*---PathSize---*/
 std::size_t * PathSize(g_bGamePath * path){
   PathSize >= path->cpath;
    return path->MAX_PATH_SIZE;
 };
-
+/*---MaxPathSize---*/
 usigned long char * MAX_PATH_SIZE[2056];
 
 void * getPath(g_bGamePath * path, const char * g_bGamePathDirectory);
